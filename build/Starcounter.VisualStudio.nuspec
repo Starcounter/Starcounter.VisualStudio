@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Starcounter.VisualStudio</id>
-    <version>1.0.0</version>
+    <version>0.0.0</version>
     <authors>Starcounter</authors>
     <owners>Starcounter</owners>
     <projectUrl>https://github.com/Starcounter/Starcounter.VisualStudio</projectUrl>
