@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Starcounter.VisualStudio</id>
+    <version>1.0.0</version>
+    <authors>Starcounter</authors>
+    <owners>Starcounter</owners>
+    <projectUrl>https://github.com/Starcounter/Starcounter.VisualStudio</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Starcounter Visual Studio extension wrapped up in a NuGet package.</description>
+    <tags>Starcounter VisualStudio</tags>
+  </metadata>
+  <files>
+	<file src="..\bin\Release\Starcounter.VS.vsix" target="build\Starcounter.VS.vsix" />
+	<file src="Starcounter.VisualStudio.props" target="build\Starcounter.VisualStudio.props" />
+  </files>
+</package>
