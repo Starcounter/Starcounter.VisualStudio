@@ -1,0 +1,1 @@
+Starcounter for Visual Studio
