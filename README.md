@@ -27,3 +27,8 @@ You will need to make sure the Starcounter API key with proper access rights is 
 
 # Install / uninstall locally
 After building, go to `bin\[Configuration]\`. Double-click `Starcounter.VS.vsix`.
+
+# Resources
+* Home on [Visual Studio marketplace]( https://marketplace.visualstudio.com/items?itemName=Starcounter.StarcounterforVisualStudio).
+* Home for package on [nuget.org](https://www.nuget.org/packages/Starcounter.VisualStudio/).
+
