@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Starcounter Class Library</Name>
+    <Description>A project for creating a C# class library containing database entities and typed json objects.</Description>
+    <Icon>ClassLibrary.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>Starcounter</ProjectSubType>
+    <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>StarcounterClassLibrary</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>StarcounterClassLibrary</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ClassLibraryProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Entity1.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
