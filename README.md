@@ -37,3 +37,4 @@ You will need to make sure the Starcounter API key with proper access rights is 
 * Home on [Visual Studio marketplace](https://marketplace.visualstudio.com/items?itemName=Starcounter.StarcounterforVisualStudio).
 * Home for package on [nuget.org](https://www.nuget.org/packages/Starcounter.VisualStudio/).
 * [Version compatibility](https://github.com/Starcounter/Starcounter.VisualStudio/wiki/Version-compatibility)
+* [Development cheat sheet](https://github.com/Starcounter/Starcounter.VisualStudio/wiki/Development-cheat-sheet)
