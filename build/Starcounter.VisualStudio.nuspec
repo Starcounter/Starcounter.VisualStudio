@@ -7,7 +7,7 @@
     <owners>Starcounter</owners>
     <projectUrl>https://github.com/Starcounter/Starcounter.VisualStudio</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Starcounter Visual Studio extension wrapped up in a NuGet package.</description>
+    <description>Starcounter Visual Studio extension wrapped up in a NuGet package. Use this version for Starcounter versions up until, and including, 2.3.x.</description>
     <tags>Starcounter VisualStudio</tags>
   </metadata>
   <files>
