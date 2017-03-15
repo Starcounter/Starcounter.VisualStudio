@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="Starcounter.VisualStudio.EDE25B9A-09C7-4B10-9CA4-979BC1E9B9B8" Version="1.0.2" Language="en-US" Publisher="Starcounter" />
+    <Identity Id="Starcounter.VisualStudio.EDE25B9A-09C7-4B10-9CA4-979BC1E9B9B8" Version="1.0.3" Language="en-US" Publisher="Starcounter" />
     <DisplayName>Starcounter for Visual Studio</DisplayName>
     <Description xml:space="preserve">A Visual Studio extension aiding developers of Starcounter applications to easily build and debug their projects. Use version 1.x of the extension for Starcounter versions up until, and including, 2.3.x.</Description>
     <MoreInfo>https://docs.starcounter.io/guides/working-with-starcounter/visual-studio-extension/</MoreInfo>
