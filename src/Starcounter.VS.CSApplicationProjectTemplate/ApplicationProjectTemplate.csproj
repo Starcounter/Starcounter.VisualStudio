@@ -15,6 +15,7 @@
     <FileAlignment>512</FileAlignment>
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <StartWorkingDirectory>$(MSBuildProjectDirectory)</StartWorkingDirectory>
+    <StarcounterVersionCompatiblity>2.3</StarcounterVersionCompatiblity>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
     <DebugSymbols>true</DebugSymbols>
