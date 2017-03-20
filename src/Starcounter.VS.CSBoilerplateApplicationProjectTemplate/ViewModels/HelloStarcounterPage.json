@@ -1,0 +1,13 @@
+{
+  "Html": "/$safeprojectname$/viewmodels/HelloStarcounterPage.html",
+  "Visitors": [
+    {
+      "FirstName": "",
+      "LastName": "",
+      "Visited": "" 
+    }
+  ],
+  "NewFirstName$": "",
+  "NewLastName$": "", 
+  "AddVisitorTrigger$": 0 
+}

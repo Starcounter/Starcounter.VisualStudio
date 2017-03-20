@@ -1,0 +1,30 @@
+﻿<link rel="import" href="/sys/polymer/polymer.html">
+
+<template>
+    <template is="dom-bind">
+        <div align="center">
+            <h2>Hello Starcounter</h2>
+            <br/>
+            <h3>Welcome</h3>
+            <h3>{{model.NewFirstName$}} {{model.NewLastName$}}</h3>
+            <b>Please enter your name:</b>
+            <br/>
+            <input type="text" placeholder="First name" value="{{model.NewFirstName$::input}}"/>
+            <br/>
+            <input type="text" placeholder="Last name" value="{{model.NewLastName$::input}}" />
+            <br/>
+            <br/>
+            <button value="{{model.AddVisitorTrigger$::click}}" onmousedown="++this.value">Save</button>
+            <br/>
+            <br/>
+            <h4>Previous visitors</h4>
+            <template is="dom-repeat" items="{{model.Visitors}}">
+                <div>
+                    <div><strong>{{item.FirstName}} {{item.LastName}}</strong></div>
+                    <div><sub>{{item.Visited}}</sub></div>
+                </div>
+                <br />
+            </template>
+        </div>
+    </template>
+</template>
