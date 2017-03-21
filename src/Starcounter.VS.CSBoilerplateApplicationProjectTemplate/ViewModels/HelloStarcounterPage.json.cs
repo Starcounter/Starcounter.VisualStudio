@@ -5,22 +5,27 @@ namespace $safeprojectname$.ViewModels
 {
     partial class HelloStarcounterPage : Json
     {
-        void Handle(Input.AddVisitorTrigger trigger)
+        void Handle(Input.AddVisitorTrigger action)
         {
-            if (string.IsNullOrEmpty(this.NewFirstName))
+            if (string.IsNullOrEmpty(this.NewName))
                 return;
 
             Db.Transact(() =>
             {
-                new GuestBook
+                new GuestBookEntry
                 {
-                    FirstName = this.NewFirstName,
-                    LastName = this.NewLastName,
-                    Visited = DateTime.Now.ToString("yyyy-MM-dd HH:mm")
+                    VisitorName = this.NewName,
+                    DateVisited = DateTime.Now.ToString("yyyy-MM-dd HH:mm")
                 };
-            });
 
-            this.Visitors = Db.SQL<GuestBook>("SELECT g FROM GuestBook g");
+                this.Visitors.Add(new VisitorsElementJson
+                {
+                    VisitorName = this.NewName,
+                    DateVisited = DateTime.Now.ToString("yyyy-MM-dd HH:mm")
+                });
+
+                this.NewName = "";
+            });
         }
     }
 }
