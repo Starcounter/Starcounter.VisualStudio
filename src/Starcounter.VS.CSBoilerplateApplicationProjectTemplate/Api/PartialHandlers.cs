@@ -1,10 +1,8 @@
-﻿using $safeprojectname$.Helpers;
-
-namespace $safeprojectname$.Api
+﻿namespace $safeprojectname$.Api
 {
-    internal class PartialHandlers : IHandler
+    internal static class PartialHandlers
     {
-        public void Register()
+        public static void Register()
         {
             
         }

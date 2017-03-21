@@ -1,10 +1,8 @@
-﻿using $safeprojectname$.Helpers;
-
-namespace $safeprojectname$.Api
+﻿namespace $safeprojectname$.Api
 {
-    internal class CommitHooks : IHandler
+    internal static class CommitHooks
     {
-        public void Register()
+        public static void Register()
         {
             
         }

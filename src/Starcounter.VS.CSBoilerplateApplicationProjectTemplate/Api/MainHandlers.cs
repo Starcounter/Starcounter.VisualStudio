@@ -1,21 +1,21 @@
-﻿using $safeprojectname$.Helpers;
-using $safeprojectname$.ViewModels;
+﻿using $safeprojectname$.ViewModels;
 using Starcounter;
 
 namespace $safeprojectname$.Api
 {
-    internal class MainHandlers : IHandler
+    internal static class MainHandlers
     {
-        public void Register()
+        public static void Register()
         {
             Application.Current.Use(new HtmlFromJsonProvider());
             Application.Current.Use(new PartialToStandaloneHtmlProvider());
 
             Handle.GET("/$safeprojectname$", () =>
             {
-                var page = new HelloStarcounterPage();
-
-                page.Visitors.Data = Db.SQL<GuestBook>("SELECT g FROM GuestBook g");
+                var page = new HelloStarcounterPage
+                {
+                    Visitors = {Data = Db.SQL<GuestBookEntry>("SELECT g FROM GuestBookEntry g")}
+                };
 
                 if (Session.Current == null)
                 {
