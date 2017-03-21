@@ -3,25 +3,23 @@
 <template>
     <template is="dom-bind">
         <div align="center">
-            <h2>Hello Starcounter</h2>
+            <h2>Starcounter Gust Book</h2>
             <br/>
             <h3>Welcome</h3>
-            <h3>{{model.NewFirstName$}} {{model.NewLastName$}}</h3>
+            <h3>{{model.NewName$}}</h3>
             <b>Please enter your name:</b>
             <br/>
-            <input type="text" placeholder="First name" value="{{model.NewFirstName$::input}}"/>
-            <br/>
-            <input type="text" placeholder="Last name" value="{{model.NewLastName$::input}}" />
+            <input type="text" placeholder="Name" value="{{model.NewName$::input}}"/>
             <br/>
             <br/>
-            <button value="{{model.AddVisitorTrigger$::click}}" onmousedown="++this.value">Save</button>
+            <button value="{{model.AddVisitorTrigger$::click}}" onmousedown="++this.value">Write my name</button>
             <br/>
             <br/>
             <h4>Previous visitors</h4>
             <template is="dom-repeat" items="{{model.Visitors}}">
                 <div>
-                    <div><strong>{{item.FirstName}} {{item.LastName}}</strong></div>
-                    <div><sub>{{item.Visited}}</sub></div>
+                    <div><strong>{{item.VisitorName}}</strong></div>
+                    <div><sub>{{item.DateVisited}}</sub></div>
                 </div>
                 <br />
             </template>
