@@ -63,10 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\CommitHooks.cs" />
-    <Compile Include="Database\GuestBook.cs" />
-    <Compile Include="Helpers\iHandler.cs" />
+    <Compile Include="Database\GuestBookEntry.cs" />
     <Compile Include="Api\MainHandlers.cs" />
-    <Compile Include="Api\OntologyHooks.cs" />
     <Compile Include="Api\PartialHandlers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,6 +73,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Helpers\" />
     <Folder Include="wwwroot\HelloStarcounter\css\" />
     <Folder Include="wwwroot\HelloStarcounter\js\" />
   </ItemGroup>

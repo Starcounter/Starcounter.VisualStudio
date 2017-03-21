@@ -18,15 +18,12 @@
       <Folder Name="Api" TargetFolderName="Api">
         <ProjectItem ReplaceParameters="true" TargetFileName="CommitHooks.cs">CommitHooks.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="MainHandlers.cs">MainHandlers.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="OntologyHooks.cs">OntologyHooks.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="PartialHandlers.cs">PartialHandlers.cs</ProjectItem>
       </Folder>
       <Folder Name="Database" TargetFolderName="Database">
-        <ProjectItem ReplaceParameters="true" TargetFileName="GuestBook.cs">GuestBook.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="GuestBookEntry.cs">GuestBookEntry.cs</ProjectItem>
       </Folder>
-      <Folder Name="Helpers" TargetFolderName="Helpers">
-        <ProjectItem ReplaceParameters="true" TargetFileName="iHandler.cs">iHandler.cs</ProjectItem>
-      </Folder>
+      <Folder Name="Helpers" TargetFolderName="Helpers" />
       <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
