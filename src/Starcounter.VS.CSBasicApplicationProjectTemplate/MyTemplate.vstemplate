@@ -1,0 +1,46 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Basic Starcounter Application</Name>
+    <Description>A basic Starcounter project for creating a C# application that executes inside Starcounter</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>StarcounterApplication</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="HelloStarcounter.csproj" File="HelloStarcounter.csproj" ReplaceParameters="true">
+      <Folder Name="Api" TargetFolderName="Api">
+        <ProjectItem ReplaceParameters="true" TargetFileName="CommitHooks.cs">CommitHooks.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainHandlers.cs">MainHandlers.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PartialHandlers.cs">PartialHandlers.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Database" TargetFolderName="Database">
+        <ProjectItem ReplaceParameters="true" TargetFileName="GuestBookEntry.cs">GuestBookEntry.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Helpers" TargetFolderName="Helpers" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="ViewModels" TargetFolderName="ViewModels">
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.json">MainPage.json</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.json.cs">MainPage.json.cs</ProjectItem>
+      </Folder>
+      <Folder Name="wwwroot" TargetFolderName="wwwroot">
+        <Folder Name="HelloStarcounter" TargetFolderName="HelloStarcounter">
+          <Folder Name="css" TargetFolderName="css" />
+          <Folder Name="js" TargetFolderName="js" />
+          <Folder Name="viewmodels" TargetFolderName="viewmodels">
+            <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.html">MainPage.html</ProjectItem>
+          </Folder>
+        </Folder>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
