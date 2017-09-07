@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starcounter.VS.CSApplicationProjectTemplate", "Starcounter.VS.CSApplicationProjectTemplate\Starcounter.VS.CSApplicationProjectTemplate.csproj", "{0E242B9D-C9FB-4975-B2A5-885DF7232582}"
 EndProject
@@ -48,5 +48,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08964B6D-874E-4A9C-BBB5-884255E50469}
 	EndGlobalSection
 EndGlobal
