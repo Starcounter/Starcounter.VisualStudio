@@ -1,32 +1,49 @@
-# Starcounter Visual Studio development assist
+# Starcounter Visual Studio.
 
 A Visual Studio extension that assist in development and debugging of Starcounter applications. Contain project- and item templates and support the extension to be installed and uninstalled using a VSIX package.
 
-# Build
-Build `src\Starcounter.VisualStudio.sln`.
+## Releasing a new version
 
-# Pack
-The package version is maintained in `build\version.txt`.
+### Build
 
-```
-cd build
-cd pack
-```
+* Clone the [source repository](https://github.com/Starcounter/Starcounter.VisualStudio) from Github. 
+    * On the command line, enter:
+    ````
+    git clone https://github.com/Starcounter/Starcounter.VisualStudio.git
+    ````
+* Open `src\Starcounter.VisualStudio.sln`.
+* Change the build type to `Release` and build the `Solution`.
 
-A new package will be created in `artifacts\`.
+### Testing
 
-# Pushing to nuget.org
-The package version is maintained in `build\version.txt`. Make sure to increase that (and commit) before publishing a new version upstream.
+* Open the directory `bin\Release\`
+* Run `Starcounter.VS.vsix`.
+* Make sure this successfully install the project extension.
 
-```
-cd build
-cd pack_and_push
-```
+### Pack
 
-You will need to make sure the Starcounter API key with proper access rights is available through `%StarcounterNuGetKeyFull%`, or pushing will fail.
+* Open the file `build\version.txt`.
+* Change the text with the version number you want to release e.g. `v2.0.1`.
+* Open the command line in the `Starcounter.VisualStudio` and enter:
+	```
+	pushd build
+	```
+* Execute the batch file `build.bat` by entering:
+	```
+	.\build.bat
+	```
+* This should create a directory in `Starcounter.VisualStudio\artifacts`
 
-# Install / uninstall locally
-After building, go to `bin\[Configuration]\`. Double-click `Starcounter.VS.vsix`.
+### Publishing to nuget.org
+
+* You would need `StarcounterNuGetKeyFull` in order to publish, ask for the Key to `Urban-star` team.
+* Edit `build\pack_and_push.bat` in notepad.
+* Set key in the file by `set StarcounterNuGetKeyFull=XXXXXXX `
+* Enter following command to publish :
+	```
+	.\pack_and_push.bat
+	```
+* New version should [Packages](https://www.nuget.org/packages/Starcounter.VisualStudio/) after some time.
 
 # Resources
 * Home on [Visual Studio marketplace]( https://marketplace.visualstudio.com/items?itemName=Starcounter.StarcounterforVisualStudio).
