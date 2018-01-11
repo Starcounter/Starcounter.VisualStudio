@@ -4,9 +4,6 @@ A Visual Studio extension that assist in development and debugging of Starcounte
 
 ## Releasing a new version
 
-### Prerequisite
-
-
 ### Build
 
 * Clone the [source repository](https://github.com/Starcounter/Starcounter.VisualStudio) from Github. 
