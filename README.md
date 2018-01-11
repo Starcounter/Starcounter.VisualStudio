@@ -26,7 +26,7 @@ A Visual Studio extension that assist in development and debugging of Starcounte
 ### Pack
 
 * Open the file `build\version.txt`.
-* Change the vesion number text `v1.0.X`.
+* Enter the version that you want to release e.g. `1.0.X`.
 * Open the command line in the `Starcounter.VisualStudio` and enter:
 	```
 	pushd build
