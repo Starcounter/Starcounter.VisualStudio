@@ -43,7 +43,7 @@ A Visual Studio extension that assist in development and debugging of Starcounte
 	```
 	.\pack_and_push.bat
 	```
-* New version should [Packages](https://www.nuget.org/packages/Starcounter.VisualStudio/) after some time.
+* New version should apear in  [Package Home](https://www.nuget.org/packages/Starcounter.VisualStudio/) after some time.
 
 # Resources
 * Home on [Visual Studio marketplace]( https://marketplace.visualstudio.com/items?itemName=Starcounter.StarcounterforVisualStudio).
