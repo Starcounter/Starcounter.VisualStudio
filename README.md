@@ -4,6 +4,9 @@ A Visual Studio extension that assist in development and debugging of Starcounte
 
 ## Releasing a new version
 
+### Prerequisite
+
+
 ### Build
 
 * Clone the [source repository](https://github.com/Starcounter/Starcounter.VisualStudio) from Github. 
@@ -18,32 +21,39 @@ A Visual Studio extension that assist in development and debugging of Starcounte
 
 * Open the directory `bin\Release\`
 * Run `Starcounter.VS.vsix`.
-* Make sure this successfully install the project extension.
+* Make sure this successfully installs the project extension.
 
 ### Pack
 
 * Open the file `build\version.txt`.
-* Change the text with the version number you want to release e.g. `v2.0.1`.
+* Enter the version that you want to release e.g. `1.0.X`.
 * Open the command line in the `Starcounter.VisualStudio` and enter:
 	```
 	pushd build
 	```
-* Execute the batch file `build.bat` by entering:
+* Execute the batch file `pack.bat` by entering:
 	```
-	.\build.bat
+	.\pack.bat
 	```
 * This should create a directory in `Starcounter.VisualStudio\artifacts`
 
 ### Publishing to nuget.org
-
-* You would need `StarcounterNuGetKeyFull` in order to publish, ask for the Key to `Urban-star` team.
-* Edit `build\pack_and_push.bat` in notepad.
-* Set key in the file by `set StarcounterNuGetKeyFull=XXXXXXX `
+* Download the latest [Nuget.exe](https://www.nuget.org/downloads) from Nuget.org.
+* Enter the following command:  
+	```
+	set PATH=%PATH%;C:\nuget 
+	```
+	where "c:\nuget" is the path to the nuget.exe.
+* You would need `StarcounterNuGetKeyFull` in order to publish, ask for the Key to `UrbanStar` team.
+* Enter command:
+	```
+	set StarcounterNuGetKeyFull="xxxx"
+	```
 * Enter following command to publish :
 	```
 	.\pack_and_push.bat
 	```
-* New version should apear in  [Package Home](https://www.nuget.org/packages/Starcounter.VisualStudio/) after some time.
+* New version should appear in  [Package Home](https://www.nuget.org/packages/Starcounter.VisualStudio/) after some time.
 
 # Resources
 * Home on [Visual Studio marketplace]( https://marketplace.visualstudio.com/items?itemName=Starcounter.StarcounterforVisualStudio).
