@@ -6,7 +6,7 @@
     <Icon>ClassLibrary.ico</Icon>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Starcounter</ProjectSubType>
-    <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+    <RequiredFrameworkVersion>4.6.1</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>StarcounterClassLibrary</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>

@@ -9,7 +9,7 @@
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Starcounter</ProjectSubType>
     <ShowByDefault>False</ShowByDefault>
-    <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+    <RequiredFrameworkVersion>4.6.1</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <DefaultName>Message.json</DefaultName>
   </TemplateData>

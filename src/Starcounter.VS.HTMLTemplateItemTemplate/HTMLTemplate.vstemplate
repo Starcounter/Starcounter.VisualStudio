@@ -10,7 +10,7 @@
     <ShowByDefault>False</ShowByDefault>
     <SortOrder>10</SortOrder>
     <Icon>HTMLTemplate.ico</Icon>
-    <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+    <RequiredFrameworkVersion>4.6.1</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
   </TemplateData>
   <TemplateContent>
