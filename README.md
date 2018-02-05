@@ -12,6 +12,8 @@ A Visual Studio extension that assist in development and debugging of Starcounte
     git clone https://github.com/Starcounter/Starcounter.VisualStudio.git
     ````
 * Open `src\Starcounter.VisualStudio.sln`.
+* Expand the project `Starcounter.VS.VSIX` and open file `source.extension.vsixmanifest`.
+* Change the version number to the version number that you want to release. e.g. `1.0.x`
 * Change the build type to `Release` and build the `Solution`.
 
 ### Testing
@@ -51,6 +53,18 @@ A Visual Studio extension that assist in development and debugging of Starcounte
 	.\pack_and_push.bat
 	```
 * New version should appear in  [Package Home](https://www.nuget.org/packages/Starcounter.VisualStudio/) after some time.
+
+### Updating extension in `VS Marketplace`
+
+*	Login to [Visual Studio Marketplace] (https://marketplace.visualstudio.com). Please ask to `UrbanStar` team if you don't have the credentials.
+*	Search for `Starcounter`.
+*	Browse `Starcounter for Visual Studio`.
+*	Click on the `Manage` link at the top right corner.
+*	Click on the Kebab Menu `(...)` found in front of the extension name and choose `Edit`.
+* 	In the `Upload extension` section click on the `pencil icon` and choose the `Starcounter.VS.vsix` file found under the directory `bin\Release\`.
+	The the version number that you want to upload should appear in the `version number` field on the same window.
+*	Click on the `Save & upload` button found at the bottom of the window.
+
 
 # Resources
 * Home on [Visual Studio marketplace]( https://marketplace.visualstudio.com/items?itemName=Starcounter.StarcounterforVisualStudio).
