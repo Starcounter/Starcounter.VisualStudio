@@ -56,7 +56,7 @@ A Visual Studio extension that assist in development and debugging of Starcounte
 
 ### Updating extension in `VS Marketplace`
 
-*	Login to [Visual Studio Marketplace] (https://marketplace.visualstudio.com). Please ask to `UrbanStar` team if you don't have the credentials.
+*	Login to [Visual Studio Marketplace](https://marketplace.visualstudio.com). Please ask to `UrbanStar` team if you don't have the credentials.
 *	Search for `Starcounter`.
 *	Browse `Starcounter for Visual Studio`.
 *	Click on the `Manage` link at the top right corner.
