@@ -55,12 +55,22 @@
     <Compile Include="Sample\SampleProgrammaticInstall.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(OutputPath)\ProjectTemplates\CSharp\Starcounter\1033\CSApplication.zip">
+    <Content Include="$(OutputPath)\ProjectTemplates\CSharp\Starcounter\1033\CSApplication.2.3.zip">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>ProjectTemplates\CSharp\Starcounter\1033</VSIXSubPath>
     </Content>
-    <Content Include="$(OutputPath)\ProjectTemplates\CSharp\Starcounter\1033\CSClassLibrary.zip">
+    <Content Include="$(OutputPath)\ProjectTemplates\CSharp\Starcounter\1033\CSClassLibrary.2.3.zip">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ProjectTemplates\CSharp\Starcounter\1033</VSIXSubPath>
+    </Content>
+	<Content Include="$(OutputPath)\ProjectTemplates\CSharp\Starcounter\1033\CSApplication.2.4.zip">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ProjectTemplates\CSharp\Starcounter\1033</VSIXSubPath>
+    </Content>
+    <Content Include="$(OutputPath)\ProjectTemplates\CSharp\Starcounter\1033\CSClassLibrary.2.4.zip">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>ProjectTemplates\CSharp\Starcounter\1033</VSIXSubPath>
