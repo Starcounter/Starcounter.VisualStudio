@@ -11,8 +11,8 @@
         <Tags>Starcounter;Debugging;Database</Tags>
     </Metadata>
     <Installation InstalledByMsi="false" AllUsers="false" SystemComponent="false" Scope="ProductExtension">
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0, 17.0]" />
-        <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[14.0, 17.0]" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0, 17.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[14.0, 17.0)" />
     </Installation>
     <Prerequisites>
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" />
