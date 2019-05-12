@@ -4,8 +4,7 @@ using Starcounter;
 
 namespace $safeprojectname$ {
     
-    [Database]
-    public class Entity1 {
-        public string Field1;
+    public abstract class Entity1 : IPersistent {
+        public abstract string Field1 { get; set; }
     }
 }
