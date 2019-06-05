@@ -2,6 +2,10 @@
 
 A Visual Studio extension that assist in development and debugging of Starcounter applications. Contain project- and item templates and support the extension to be installed and uninstalled using a VSIX package.
 
+## Usage
+
+This extension requires `StarcounterBin` user level environment variable to point to the Starcounter installation folder.
+
 ## Releasing a new version
 
 ### Build
@@ -69,4 +73,8 @@ A Visual Studio extension that assist in development and debugging of Starcounte
 # Resources
 * Home on [Visual Studio marketplace]( https://marketplace.visualstudio.com/items?itemName=Starcounter.StarcounterforVisualStudio).
 * Home for package on [nuget.org](https://www.nuget.org/packages/Starcounter.VisualStudio/).
+* [Modifying the Isolated Shell By Using the .Pkgdef File](https://docs.microsoft.com/en-au/visualstudio/extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file?view=vs-2015).
+* [Substitution Strings Used in .Pkgdef and .Pkgundef Files](https://docs.microsoft.com/en-au/visualstudio/extensibility/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files?view=vs-2015).
+* [HowTo: Set an Environment Variable in Windows - Command Line and Registry](http://www.dowdandassociates.com/blog/content/howto-set-an-environment-variable-in-windows-command-line-and-registry/).
+* [VsixPackage Element (Vs Extension)](https://wixtoolset.org/documentation/manual/v3/xsd/vs/vsixpackage.html).
 
